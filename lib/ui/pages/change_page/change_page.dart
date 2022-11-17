@@ -88,7 +88,7 @@ class ChangeNoteBtn extends StatelessWidget {
         ),
         heroTag: 'change-note-btn',
         onPressed: () => btnAction(),
-        label:  Text(
+        label: const Text(
           'Изменить',
           style: TextStyle(
             fontSize: 14,
